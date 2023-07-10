@@ -1,0 +1,130 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 22, 2023, 9:35:30 PM
+    Author     : DAT
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.post {
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+}
+.post-image img{
+    width: 100%;
+    height: auto;
+}
+.sidebar {
+    width: 25%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #e6e6e6;
+    box-sizing: border-box;
+}
+.search-box {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+.widget {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+.widget-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.widget-link {
+    display: block;
+    margin-bottom: 5px;
+}
+.author img {
+    margin-right: 10px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+.author p {
+    margin: 0px 20px;
+}
+.author img {
+    max-width: 30%;
+    height: auto;
+}
+.navbar2 {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar2-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar2-divider {
+    font-size: 20px;
+    color: #333;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.last {
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.last img{
+    width: 100%;
+    height: auto;
+}
+.rating {
+  display: inline-block;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 30px;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+  color: #ffc107;
+}

@@ -1,0 +1,147 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jun 6, 2023, 8:32:19 PM
+    Author     : DAT
+*/
+.navbar3 {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar3-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar3-divider {
+    font-size: 20px;
+    color: #333;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+          
+            .active{
+                color: orange;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            th, td {
+                text-align: left;
+                padding: 8px;
+            }
+
+            th:last-child, td:last-child {
+                border-right: none;
+            }
+
+            tr:nth-child(even) {
+                background-color: #D3D3D3;
+            }
+
+            tr:hover {
+                background-color: #31d2f2;
+            }
+
+            td:nth-child(3), td:nth-child(7) {
+                text-transform: capitalize;
+            }
+
+            td:nth-child(5) {
+                white-space: nowrap;
+            }
+
+            .action-wrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .action-wrapper a {
+                color: #fff;
+                text-decoration: none;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+
+            .action-wrapper a:first-child {
+                background-color: #f1c40f;
+            }
+
+            .action-wrapper a:last-child {
+                background-color: #3498db;
+            }
+
+            .action-wrapper a:first-child:hover {
+                background-color: #f39c12;
+            }
+
+            .action-wrapper a:last-child:hover {
+                background-color: #2980b9;
+            }
+      
+            .sidebar {
+                width: 100%;
+
+                padding: 20px;
+                background-color: black;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            .sidebar h3 {
+                margin-top: 0;
+            }
+            .search-form {
+                margin-bottom: 20px;
+            }
+            .search-form input[type="text"] {
+                width: 500px;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+
+            .widget-title {
+                color: black;
+            }
+         
+            .add_button {
+                width: 50px;
+                height: 40px;
+            }
+            .search-box {
+                float: right;
+                left:  370px;
+                position: absolute;
+                margin: 0px 0;
+            }
+
+            .search-box input[type="text"] {
+                width: 500px;
+                padding: 5px 5px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+            }
+            .search-box button[type="submit"] {
+                width: 100px;
+                height: 30px;
+            }
+            .body_content{
+                margin: 50px 0px;
+            }
+            
+            .filter-box{
+              display: flex;
+           
+                margin: 20px 1000px;
+            }

@@ -1,0 +1,281 @@
+:root {
+    --primary-color: #68cc8b;
+    --marked-color: #ffe039;
+}
+.footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.highlight:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.quiz-number{
+    margin-top: 50px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-header{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-header{
+    border-top: 30px;
+}
+
+.quiz-content{
+    padding-top: 30px;
+    border-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quiz-question{
+    border: 1px solid #333;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.quiz-answers{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.quiz-answer{
+    border: 3px solid #68cc8b;
+    background-color: #fefefe;
+    padding: 20px 5px;
+    margin: 5px 10px;
+}
+
+.quiz-function{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quiz-peek{
+    cursor: pointer;
+    background-color: #ccc;
+    padding: 5px;
+}
+
+.quiz-mark{
+    cursor: pointer;
+    background-color: #ccc;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.quiz-footer{
+    height: 100px;
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-review{
+    margin: auto 50px;
+    background-color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quiz-move{
+    display: flex;
+    margin: auto 50px;
+}
+
+.quiz-back{
+    background-color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+
+.quiz-next{
+    background-color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.review {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.review-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.peek {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.peek-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+
+
+.exit {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.exit-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+.quiz-button{
+    background-color: #ccc;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.green-button{
+    background-color: var(--primary-color);
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    margin: 5px;
+}
+
+.green-button:hover{
+    text-decoration: underline;
+}
+
+
+.review-header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exit-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exit-header .title{
+    background-color: var(--primary-color);
+    padding: 0 10px;
+}
+
+.exit-des{
+    color: red;
+}
+
+.review-header .title{
+    background-color: var(--primary-color);
+    padding: 0 20px;
+}
+
+.review-header .close{
+    cursor: pointer;
+}
+
+.review-header img{
+    height: 60%;
+}
+
+.review-status{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.quiz-all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.quiz-square {
+    width: calc(100% / 22); /* Đảm bảo mỗi hàng chỉ có 20 ô */
+    box-sizing: border-box; /* Tránh lỗi khi thêm padding hoặc border */
+    margin: 10px; /* Thêm khoảng cách giữa các ô câu hỏi */
+    padding: 3px;
+    border: 1px solid black;
+    text-align: center;
+    cursor:pointer;
+}
+
+.quiz-anwser-text{
+    padding: 10px; /* Khoảng cách giữa nội dung và viền */
+    border: 1px solid #ccc; /* Viền */
+    border-radius: 4px; /* Góc bo viền */
+    font-size: 16px; /* Kích cỡ chữ */
+    color: #333; /* Màu chữ */
+    width: 200px; /* Độ rộng của input */
+}
+
+#correct{
+    padding: 0;
+    background-color: var(--primary-color);
+    border: 5px solid var(--primary-color);
+}
+
+#incorrect{
+    padding: 0;
+    background-color: var(--primary-color);
+    border: 5px solid var(--primary-color);
+}
+
+#unanswered{
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #333;
+}

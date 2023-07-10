@@ -1,0 +1,273 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 23, 2023, 11:34:14 PM
+    Author     : admin
+*/
+
+:root{
+    --pink-color: #e26e70;
+}
+.message1 {
+    position: fixed;
+    color: white;
+    background-color: #f5f5f5;
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    text-align: center;
+}
+.message1.show {
+    display: block;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+}
+.container3{
+
+}
+
+.post{
+    margin-bottom: 20px;
+
+}
+.post {
+    margin:  5xp;
+    padding: 0px;
+    width:  100%;
+    height: 650px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.post img {
+    width: 100%;
+    height: 300px;
+}
+.post h2 {
+    margin-top: 0;
+    text-decoration: none;
+    font-size: 10px;
+}
+.post p {
+    margin-top: 0;
+    text-decoration: none;
+    font-size: 10px;
+
+}
+.sidebar {
+    width: 100%;
+
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sidebar h3 {
+    margin-top: 0;
+}
+.search-form {
+    margin-bottom: 20px;
+}
+.search-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.col{
+    width: 100%;
+}
+.last img{
+    width: 100%;
+}
+
+
+.last {
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar1 {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar1-brand {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar1-divider {
+    font-size: 20px;
+    color: #333;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.course-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+
+}
+
+.course-name{
+    text-decoration: none;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    font-size: 50px;
+
+    height: 108px;
+
+    padding-top: 40px;
+
+    color: #339900;
+
+    letter-spacing: .15em;
+
+}
+.dropdown {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.06)) repeat scroll 0 0 #F2F2F2;
+    border-color: #FFFFFF #F7F7F7 #F5F5F5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    display: inline-block;
+    height: 28px;
+    overflow: hidden;
+    position: relative;
+    width: 150px;
+}
+.dropdown:before, .dropdown:after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #888888 rgba(0, 0, 0, 0);
+    border-image: none;
+    border-style: dashed;
+    border-width: 4px;
+    content: "";
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+    width: 0;
+    z-index: 2;
+}
+.dropdown:before {
+    border-bottom-style: solid;
+    border-top: medium none;
+}
+.dropdown:after {
+    border-bottom: medium none;
+    border-top-style: solid;
+    margin-top: 7px;
+}
+.dropdown-select {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 0 none;
+    border-radius: 0;
+    color: #62717A;
+    font-size: 12px;
+    height: 28px;
+    line-height: 14px;
+    margin: 0;
+    padding: 6px 8px 6px 10px;
+    position: relative;
+    text-shadow: 0 1px #FFFFFF;
+    width: 130%;
+}
+.dropdown-select:focus {
+    color: #394349;
+    outline: 2px solid #49AFF2;
+    outline-offset: -2px;
+    width: 100%;
+    z-index: 3;
+}
+.dropdown-select > option {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 3px;
+    padding: 6px 8px;
+    text-shadow: none;
+}
+.dropdown-dark {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)) repeat scroll 0 0 #444444;
+    border-color: #111111 #0A0A0A #000000;
+    box-shadow: 0 1px rgba(255, 255, 255, 0.1) inset, 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.dropdown-dark:before {
+    border-bottom-color: #AAAAAA;
+}
+.dropdown-dark:after {
+    border-top-color: #AAAAAA;
+}
+.dropdown-dark .dropdown-select {
+    background: none repeat scroll 0 0 #444444;
+    color: #AAAAAA;
+    text-shadow: 0 1px #000000;
+}
+.dropdown-dark .dropdown-select:focus {
+    color: #CCCCCC;
+}
+.dropdown-dark .dropdown-select > option {
+    background: none repeat scroll 0 0 #444444;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+}
+.sort-button{
+    color:#fff;
+    background-color:#198754;
+    border-color:#198754;
+    border-radius: 20px; /* Đặt giá trị border-radius theo mong muốn */
+    padding: 5px 20px; /* Điều chỉnh padding cho nút */
+    cursor: pointer;
+}
+.card-body img {
+    all: unset;
+  max-width: 100%;
+  max-height: 100%;
+}
+a.course-register {
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: #00CED1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+a.course-register:hover {
+  background-color: #00a9ac;
+}

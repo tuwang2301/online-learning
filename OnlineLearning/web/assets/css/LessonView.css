@@ -1,0 +1,22 @@
+.watch-video-button{
+    color:#fff;
+    background-color:#FF0000;
+    border-color:#b02a37;
+
+}
+.lesson-title{
+    color : #000
+}
+.course-img{
+    width: 100%
+
+}
+.lesson-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ff0000; /* Màu văn bản */
+    transition: color 0.3s; /* Hiệu ứng màu khi hover */
+}
+.lesson-link:hover{
+     color: #007bff;
+}
